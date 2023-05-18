@@ -16,7 +16,7 @@ class Form extends Component {
             headers: { "Content-Type": "apllication/jason" },
             body: JSON.stringify(name, url),
           });
-          window.location = "/";
+          console.log(response);
         }}
       >
         <div style={{ marginLeft: "210px" }}>
